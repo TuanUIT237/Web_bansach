@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteRule "trang-chu" "index.php"
+RewriteRule "dang-nhap" "login.php"
+RewriteRule "dang-ky" "signup.php"
+RewriteRule "quen-mat-khau" "modules/forgot_pass.php"
+RewriteRule "doi-mat-khau" "modules/change_pass.php"
+RewriteRule "^([a-zA-Z0-9-]+)$" "trang-chu?quanly=$1"
+RewriteRule "^danh-muc&loai-([0-9]+)&([0-9]+)&trang-([0-9]+)$" "?quanly=danhmuc&id=$1&per_page=$2&page=$3"
+RewriteRule "^thong-tin-sach&id-([0-9]+)$" "?quanly=infobook&id=$1"
+RewriteRule "^gio-hang&id-([0-9]+)$" "?quanly=gio-hang&id=$1"
+RewriteRule "^dat-hang&id-([0-9]+)$" "?quanly=dat-hang&id=$1"
+RewriteRule "^lich-su&id-([0-9]+)$" "?quanly=lich-su&iduser=$1"
+RewriteRule "^kiem-tra&id-([0-9]+)$" "?quanly=kiem-tra&iduser=$1"
+RewriteRule "^thong-tin-khach-hang&id-([0-9]+)$" "?quanly=infouser&id=$1"
+RewriteRule "^dat-hang-thanh-cong&id-([0-9]+)$" "?quanly=ordersuccess&id=$1"
+RewriteRule "^dat-hang-momo-thanh-cong&id-([0-9]+)$" "?quanly=ordersuccessmomo&id=$1"
+RewriteRule "^gio-hang&xoa-([0-9]+)$" "?quanly=gio-hang&xoa=$1"
