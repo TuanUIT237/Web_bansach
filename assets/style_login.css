@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url("../image/bg_login.jpg");
+}
+
+.mb-login-page {
+    margin: 0 auto;
+    max-width: 450px;
+    height: 80px;
+    color: #6D757D;
+}
+
+.mb-login-page #logo {
+    margin: 30px auto;
+    width: 236px;
+    height: 40px;
+    display: block;
+}
+
+.mb-login-page #logo h2 {
+    width: 236px;
+    padding-top: 104px;
+    background: url(../image/Login_Logo.png) center center no-repeat;
+    background-size: cover;
+}
+
+.mb-login-page .head-title {
+    font-size: 25px;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 0px 0 20px 0;
+    padding-left: 10px;
+}
+
+.mb-login-page .mb-login-page-inner {
+    padding: 16px;
+    border-radius: 20px;
+    margin-top: 60px;
+    background-color: var(--white-color);
+}
+
+.login_email{
+    padding:0 10px;
+    
+}
+
+.required{
+    color: red;
+}
+
+.remember_login{
+    text-align: end;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.mb-login-page .form-control {
+    border: 1px solid #CED4DA;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    font-size: 14px;
+}
+
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+    width: 100%;
+}
+
+.mb-login-page .btn {
+    border-radius: 30px;
+    padding: 1rem 0.5rem;
+    text-transform: uppercase;
+    outline: none;
+    font-size: 12px;
+    font-weight: 450;
+}
+
+.login-text-chosen {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+    line-height: 0.1em;
+    margin: 20px 0;
+    color: #6d757d;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.login-text-chosen span {
+    background: #fff;
+    padding: 0 20px;
+}
+
+.img_social{
+    padding-bottom: 3px;
+    height: 15px;
+}
+
+.mb-login-page .social-login {
+    margin-bottom: 50px;
+}
+
+.social-login {
+    margin: 10px 0;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-6 {
+    width: 40%;
+}
+
+.btn-login-google,.btn-login-fb{
+    margin-left: 20px;
+}
+
+.mb-login-page p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.mb-login-page p a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.mb-login-page p span {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.btn_check{
+    height: 20px;
+}
+/*Fogot password*/
+.form-group {
+    margin-bottom: 15px;
+}
+
